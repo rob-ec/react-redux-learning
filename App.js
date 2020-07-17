@@ -4,15 +4,18 @@ class App extends React.Component {
         age: 21
     };
 
-    handleClick(e) {
-        console.log(e.target);
+    handleClick = (e) => {
+        this.setState({
+            name: 'Robson'
+        });
+        console.log(this.state);
     }
 
-    handleMouseHover(e) {
+    handleMouseHover = (e) => {
         console.log(e.target, e.pageX);
     }
 
-    handleCopy(e) {
+    handleCopy = (e) => {
         console.log('Try being original for once');
     }
 
