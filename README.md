@@ -4,3 +4,5 @@ React Learning
 ![Badge](https://img.shields.io/github/last-commit/rob-ec/react-redux-learning)
 
 My very first react experiment
+
+> Project Status: Development :warning:
