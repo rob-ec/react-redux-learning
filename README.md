@@ -1,2 +1,3 @@
-# react-redux-learning
+React Learning
+---
 My very first react experiment
