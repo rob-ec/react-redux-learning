@@ -3,30 +3,24 @@ class App extends React.Component {
         name: 'Rob',
         age: 21
     };
-
-    handleClick = (e) => {
+    handleChange = (e) => {
         this.setState({
-            name: 'Robson'
+            name: e.target.value
         });
-        console.log(this.state);
     }
-
-    handleMouseHover = (e) => {
-        console.log(e.target, e.pageX);
+    handleSubmit = (e) => {
+        e.preventDefault();
+        console.log('form submitted', this.state.name)
     }
-
-    handleCopy = (e) => {
-        console.log('Try being original for once');
-    }
-
     render() {
         return (
             <div className="app-content">
                 <header><h1>My React Lab!</h1></header>
                 <div className='code-box'>> My name is {this.state.name} and I am {this.state.age}</div>
-                <button onClick={this.handleClick}>Click Me</button>
-                <div className='code-box'><p onCopy={this.handleCopy}>> What we think we become</p></div>
-                <button onMouseOver={this.handleMouseHover}>Hover Me</button>
+                <form onSubmit={this.handleSubmit}>
+                    <input type='text' onChange={this.handleChange} />
+                    <button>Submit</button>
+                </form>
             </div>
         );
     }
