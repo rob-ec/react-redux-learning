@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+    --color-A: #61dbfb;
+    --color-B: #282c34;
+}
+
+#app {
+    display: flex;
+    flex-basis: 100%;
+
+    margin-top: 100px;
+}
+
+#app .app-content {
+    flex-basis: 100%;
+    max-width: 600px;
+
+    padding: 5px;
+    margin: auto;
+}
+
+header {
+    flex-basis: 100%;
+
+    text-align: center;
+
+    margin: 10px auto;
+}
+
+.code-box {
+    flex-basis: 100%;
+
+    background-color: var(--color-B);
+    color: #ffffff;
+
+    font-family: 'Source Code Pro', monospace;
+    
+    padding: 20px;
+    margin: 10px auto;
+}
+
+.code-box *,
+.code {
+    font-family: 'Source Code Pro', monospace;
+}
+
+button {
+    display: block;
+
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-A);
+
+    padding: 10px 30px;
+    margin: 10px auto;    
+}

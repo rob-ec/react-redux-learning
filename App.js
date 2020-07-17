@@ -3,11 +3,27 @@ class App extends React.Component {
         name: 'Rob',
         age: 21
     };
+
+    handleClick(e) {
+        console.log(e.target);
+    }
+
+    handleMouseHover(e) {
+        console.log(e.target, e.pageX);
+    }
+
+    handleCopy(e) {
+        console.log('Try being original for once');
+    }
+
     render() {
         return (
             <div className="app-content">
-                <h1>Hello, World!</h1>
-                <p>My name is {this.state.name} and I am {this.state.age}</p>
+                <header><h1>My React Lab!</h1></header>
+                <div className='code-box'>> My name is {this.state.name} and I am {this.state.age}</div>
+                <button onClick={this.handleClick}>Click Me</button>
+                <div className='code-box'><p onCopy={this.handleCopy}>> What we think we become</p></div>
+                <button onMouseOver={this.handleMouseHover}>Hover Me</button>
             </div>
         );
     }
