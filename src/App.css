@@ -1,0 +1,95 @@
+:root {
+  --color-A: #61dafb;
+  --color-B: #282c34;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.App-logo {
+  width: 50px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  height: 70px;
+  flex-basis: 100%;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: var(--color-B);
+  
+  font-size: 0.875em;
+  color: white;
+  padding: 0 20px;
+}
+
+.App-title {
+  justify-self: flex-end;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/**
+* Ninja Lista
+*/
+.ninja-list {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  color: var(--color-B);
+
+  margin-top: 20px;
+}
+
+.ninja-list header {
+  display: block;
+  flex-basis: 100%;
+
+  text-align: center;
+
+  margin-bottom: 10px;
+}
+
+/**
+* Ninja Component
+*/
+.ninja {
+  flex-basis: 200px;
+
+  border: 1px solid var(--color-B);
+  border-radius: 5px;
+
+  padding: 5px;
+  margin: 10px 5px;
+}
+
+.ninja>p>span {
+  color: #494949;
+}
+
+@media(max-width: 800px) {
+  .ninja {
+    flex-basis: 40%;
+  }
+}
