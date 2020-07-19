@@ -1,0 +1,62 @@
+/**
+* Ninja Component
+*/
+.ninja {
+    flex-basis: 200px;
+
+    border       : 1px solid var(--color-B);
+    border-radius: 5px;
+
+    padding: 5px;
+    margin : 10px 5px;
+}
+
+.ninja>p>span {
+    color: #494949;
+}
+
+.closeButtom {
+    display: block;
+
+    align-items: center;
+    text-align : center;
+    font-size  : 0.875em;
+    color      : #fff;
+
+    background-color: var(--color-B);
+
+    margin-top: 10px;
+
+    cursor: pointer;
+}
+
+.closeButtom:hover {
+    background-color: #494949;
+}
+
+/**
+* Ninja List
+*/
+.ninja-list {
+    display   : flex;
+    flex-basis: 100%;
+    flex-wrap : wrap;
+
+    justify-content: center;
+    align-items    : center;
+
+    color: var(--color-B);
+
+    padding: 50px;
+
+    margin-top: 20px;
+}
+
+.ninja-list header {
+    display   : block;
+    flex-basis: 100%;
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
