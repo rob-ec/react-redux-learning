@@ -1,8 +1,8 @@
 React Learning
 ---
-![License](https://img.shields.io/github/license/rob-ec/todolist)
-![Last Commit](https://img.shields.io/github/last-commit/rob-ec/todolist)
-![Tag](https://img.shields.io/github/v/tag/rob-ec/todolist?include_prereleases)
+![License](https://img.shields.io/github/license/rob-ec/react-redux-learning)
+![Last Commit](https://img.shields.io/github/last-commit/rob-ec/react-redux-learning)
+![Tag](https://img.shields.io/github/v/tag/rob-ec/react-redux-learning?include_prereleases)
 
 My very first react experiment.
 

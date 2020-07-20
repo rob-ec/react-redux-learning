@@ -1,18 +1,9 @@
-:root {
-  --color-A: #61dafb;
-  --color-B: #282c34;
-}
-
-/**
-* APP
-*/
 .App {
-  display  : flex;
-  flex-wrap: wrap;
+  text-align: center;
 }
 
 .App-logo {
-  width         : 50px;
+  height: 40vmin;
   pointer-events: none;
 }
 
@@ -22,60 +13,26 @@
   }
 }
 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
-
   to {
     transform: rotate(360deg);
-  }
-}
-
-.App-header {
-  height    : 70px;
-  flex-basis: 100%;
-  min-height: 60px;
-  display   : flex;
-
-  align-items    : center;
-  justify-content: space-between;
-
-  background-color: var(--color-B);
-
-  font-size: 0.875em;
-  color    : white;
-
-  padding: 0 20px;
-}
-
-.App-title {
-  justify-self: flex-end;
-}
-
-button {
-
-  font-size     : 1em;
-  font-weight   : bold;
-  text-transform: uppercase;
-
-  color: #ffffff;
-
-  border          : none;
-  border-radius   : 5px;
-  background-color: var(--color-A);
-
-  padding: 10px 30px;
-  margin : 10px auto;
-}
-
-@media(max-width: 800px) {
-  .ninja {
-    flex-basis: 40%;
-  }
-
-  .add-ninja input {
-    margin    : 5px auto;
-    flex-basis: calc(100% - 100px);
   }
 }
