@@ -1,5 +1,6 @@
 .add-ninja {
     display   : flex;
+    max-width: 600px;
     flex-basis: 100%;
     flex-wrap : wrap;
 
@@ -10,7 +11,7 @@
 
     padding: 50px;
 
-    margin-top: 20px;
+    margin: auto;
 }
 
 .add-ninja header {

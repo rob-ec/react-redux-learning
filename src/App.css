@@ -3,6 +3,9 @@
   --color-B: #282c34;
 }
 
+/**
+* APP
+*/
 .App {
   display  : flex;
   flex-wrap: wrap;
@@ -50,17 +53,6 @@
   justify-self: flex-end;
 }
 
-@media(max-width: 800px) {
-  .ninja {
-    flex-basis: 40%;
-  }
-
-  .add-ninja input {
-    margin    : 5px auto;
-    flex-basis: calc(100% - 100px);
-  }
-}
-
 button {
 
   font-size     : 1em;
@@ -75,4 +67,15 @@ button {
 
   padding: 10px 30px;
   margin : 10px auto;
+}
+
+@media(max-width: 800px) {
+  .ninja {
+    flex-basis: 40%;
+  }
+
+  .add-ninja input {
+    margin    : 5px auto;
+    flex-basis: calc(100% - 100px);
+  }
 }

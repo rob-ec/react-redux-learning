@@ -4,8 +4,6 @@ import './Ninjas.css';
 const Ninjas = ({ ninjas, deleteNinja }) => {
 
     const ninjaList = ninjas.map(ninja => {
-        //if (ninja.age <= 20)
-        //    return null;
 
         return (
             <article className='ninja' key={ninja.id}>

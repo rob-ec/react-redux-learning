@@ -1,5 +1,5 @@
 /**
-* Ninja Component
+* Ninja
 */
 .ninja {
     flex-basis: 200px;
@@ -48,8 +48,6 @@
     color: var(--color-B);
 
     padding: 50px;
-
-    margin-top: 20px;
 }
 
 .ninja-list header {
