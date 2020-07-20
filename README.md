@@ -1,7 +1,8 @@
 React Learning
 ---
-![Badge](https://img.shields.io/github/license/rob-ec/react-redux-learning)
-![Badge](https://img.shields.io/github/last-commit/rob-ec/react-redux-learning)
+![License](https://img.shields.io/github/license/rob-ec/react-redux-learning)
+![Last Commit](https://img.shields.io/github/last-commit/rob-ec/react-redux-learning)
+![Tag](https://img.shields.io/github/v/tag/rob-ec/react-redux-learning?include_prereleases)
 
 My very first react experiment.
 
