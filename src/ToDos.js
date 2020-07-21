@@ -12,7 +12,7 @@ const ToDos = ({ todos, deleteTodo }) => {
     ) : (
             <p className='center'>You've complete all todo's! Yay!!!</p>
         );
-
+        
     return (
         <div className='todos collection'>
             {todoList}
