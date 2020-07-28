@@ -1,9 +1,9 @@
-To Do List
----
-![License](https://img.shields.io/github/license/rob-ec/todolist)
-![Last Commit](https://img.shields.io/github/last-commit/rob-ec/todolist)
-![Tag](https://img.shields.io/github/v/tag/rob-ec/todolist?include_prereleases)
-
+<h1 align="center">To Do List</h1>
+<p align="center">
+  <img src="https://img.shields.io/github/license/rob-ec/todolist" alt="License"/>
+  <img src="https://img.shields.io/github/last-commit/rob-ec/todolist" alt="Last Commit"/>
+  <img src="https://img.shields.io/github/v/tag/rob-ec/todolist?include_prereleases" alt="Tag"/>
+</p>
 My very first react experiment.<br />
 
 [Meu primeiro experimento React]
