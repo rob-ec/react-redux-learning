@@ -1,10 +1,8 @@
-<h1 align="center">To Do List</h1>
-<p align="center">
+<h1 align="center">To Do List<br/>
   <img src="https://img.shields.io/github/license/rob-ec/todolist" alt="License"/>
   <img src="https://img.shields.io/github/last-commit/rob-ec/todolist" alt="Last Commit"/>
   <img src="https://img.shields.io/github/v/tag/rob-ec/todolist?include_prereleases" alt="Tag"/>
-</p>
-
+</h1>
 
 Description [Descrição]
 ---
