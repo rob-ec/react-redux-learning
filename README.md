@@ -4,6 +4,10 @@
   <img src="https://img.shields.io/github/last-commit/rob-ec/todolist" alt="Last Commit"/>
   <img src="https://img.shields.io/github/v/tag/rob-ec/todolist?include_prereleases" alt="Tag"/>
 </p>
+
+
+Description [Descrição]
+---
 My very first react experiment.<br />
 
 [Meu primeiro experimento React]
