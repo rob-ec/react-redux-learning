@@ -45,6 +45,7 @@ The build is minified and the filenames include the hashes.<br />
 
 [O projeto é minificado e os nomes de arquivos incluem as hashs.]<br />
 
+
 Screenshots
 ---
 ![Screenshot from app](https://github.com/rob-ec/todolist/blob/master/Preview/screenshot.png)
