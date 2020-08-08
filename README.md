@@ -41,6 +41,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 [Isso constroi o app para produção na pasta 'build'.<br />
 Isso corretamente prepara o React em modo de produção e otimiza o projeto para melhor performace.]<br />
 
+
 The build is minified and the filenames include the hashes.<br />
 
 [O projeto é minificado e os nomes de arquivos incluem as hashs.]<br />
