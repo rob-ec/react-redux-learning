@@ -14,7 +14,9 @@ Available Scripts
 ---
 In the project directory, you can run:  
 
-> `npm start`
+```shell
+  npm start
+```
 
 It runs the app in the development mode.  
 So open [http://localhost:3000](http://localhost:3000) to view it in the browser.  
@@ -24,7 +26,9 @@ You will also see any lint errors in the console.
 
 You also could use:
 
-> `npm run build`
+```shell
+  npm run build
+```
 
 It builds the app for production to the `build` folder.  
 It correctly bundles React in production mode and optimizes the build for the best performance.  
